@@ -1,4 +1,4 @@
-import re
+uimport re
 from os import environ
 from Script import script 
 
@@ -123,7 +123,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://smdfilterxbot.koyeb.app/")
+URL = environ.get("URL", "")
 
 # Start Command Reactions
 REACTIONS = ["🦋", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"] #don't add any emoji because tg not support all emoji reactions
